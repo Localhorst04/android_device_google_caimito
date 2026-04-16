@@ -48,6 +48,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayTokay
 
+PRODUCT_PACKAGES += \
+    AxionUpdater
+
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
