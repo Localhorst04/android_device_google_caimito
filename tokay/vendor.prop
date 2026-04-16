@@ -44,3 +44,9 @@ ro.vendor.vibrator.hal.chirp.enabled=1
 ro.vendor.vibrator.hal.device.mass=0.222
 ro.vendor.vibrator.hal.loc.coeff=2.8
 vendor.audio.hapticgenerator.distortion.output.gain=0.48
+
+# Enable or disable ScrollOptimizer globally
+persist.sys.perf.scroll_opt = true
+
+# Heavy app handling mode
+persist.sys.perf.scroll_opt.heavy_app = 1
