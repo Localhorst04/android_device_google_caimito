@@ -117,6 +117,7 @@
         <value>251.35</value>
         <value>253.83</value>
     </array>
+    <item name="battery.capacity">4700</item>
     <item name="ambient.on">32</item>
     <item name="screen.on">98</item>
     <item name="screen.full">470</item>
