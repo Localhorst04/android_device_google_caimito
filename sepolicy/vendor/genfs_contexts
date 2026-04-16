@@ -2,3 +2,5 @@ genfscon sysfs /devices/platform/111d0000.spi/spi_master/spi20/spi20.0/synaptics
 genfscon sysfs /devices/platform/111d0000.spi/spi_master/spi20/spi20.0/synaptics_tcm.0/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/odm/odm:qcom,qbt-handler/power/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-003b u:object_r:sysfs_wlc:s0
+genfscon proc /sys/vm/dirty_ratio                   u:object_r:proc_dirty:s0
+genfscon proc /sys/kernel/sched_migration_cost_ns   u:object_r:proc_sched:s0
