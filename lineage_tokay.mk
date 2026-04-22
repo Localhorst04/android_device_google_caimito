@@ -29,5 +29,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
 
+# Inherit from gs-common
+include device/google/gs-common/device.mk
+
 # Inherit Axion flags
 $(call inherit-product, device/google/caimito/tokay/axion_flags.mk)
