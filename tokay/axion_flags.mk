@@ -1,9 +1,8 @@
 # Blööah
 TARGET_ENABLE_BLUR := true
 
-# GPU boosts for blur etc
-GPU_FREQS_PATH := /sys/devices/platform/1f000000.mali/available_frequencies
-GPU_MIN_FREQ_PATH := /sys/devices/platform/1f000000.mali/hint_min_freq
+# safely disable libperfmgr without breaking boot (set to true)
+TARGET_DISABLES_LIBPERF ?= false
 
 # CPU governor support
 PERF_GOV_SUPPORTED := true
