@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- QS -->
+    <dimen name="ax_qs_offset_reduction">-8dp</dimen>
+
     <!-- Udfps fingerprint animation -->
     <dimen name="udfps_animation_size">160dp</dimen>
     <dimen name="udfps_animation_offset">-22dp</dimen>
