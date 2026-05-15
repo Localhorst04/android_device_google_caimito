@@ -5,5 +5,5 @@
 
     <!-- Udfps fingerprint animation -->
     <dimen name="udfps_animation_size">160dp</dimen>
-    <dimen name="udfps_animation_offset">-22dp</dimen>
+    <dimen name="udfps_animation_offset">-30dp</dimen>
 </resources>

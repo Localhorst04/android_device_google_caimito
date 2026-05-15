@@ -2,11 +2,12 @@
 TARGET_ENABLE_BLUR := true
 
 # safely disable libperfmgr without breaking boot (set to true)
-TARGET_DISABLES_LIBPERF ?= false
+TARGET_DISABLES_LIBPERF ?= true
 
 # CPU governor support
 PERF_GOV_SUPPORTED := true
-PERF_DEFAULT_GOV := schedutil
+PERF_DEFAULT_GOV := sched_pixel
+PERF_ANIM_OVERRIDE := false
 
 TARGET_INCLUDE_AXFX := true
 
